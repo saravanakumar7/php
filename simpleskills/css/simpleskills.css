@@ -1,0 +1,24 @@
+.top_bar{background: #f26522; padding: 5px 0;}
+.social_icon{margin-right: 5px;}
+.contact_info{color: #fff; font-size: 16px;}
+
+.my_menu{margin-top: 27px;}
+
+.my_menu .navbar-default{background: none; border: none}
+
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover{background: #f26522; color: #fff;}
+
+.my_menu .navbar-nav li a:hover{background: #f26522; color: #fff;}
+
+.languages{margin-top: 40px;}
+
+.our_courses{background: radial-gradient(circle, blue, red);padding: 25px;}
+
+.our_courses h1{color: #fff}
+
+
+@media (max-width:1200px){
+    .my_menu .pull-right{float: none !important;}
+    
+    
+}
