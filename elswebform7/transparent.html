@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>Transparent form</title>
+<script>
+  function submitfunction()
+    {
+        var x=document.forms["transparent"]["email"].value;
+        var y=document.forms["transparent"]["password"].value;
+        if (x==null||x==""||y==null||y=="")
+            {
+                alert("both fields cann't be empty");
+            }
+        else{
+            if("x==webi")
+                {
+                    if(y=="123")
+                {
+                    alert("login successful");
+                }
+                }
+                
+                else
+                {
+                    alert("password do not match");
+                    
+                }
+                else
+                {
+                    alert("user does not exist");
+                   
+                }
+        }
+        
+    }
+    
+</script>    
+<link rel="stylesheet" href="transparent.css">
+</head>
+<body>
+    <div class="loginbox">
+    <img src="images.jpg" class="user">
+        <h2>Log in here</h2>
+        <form name="transparent" onsubmit="submitfunction()">
+            <p>Email</p>
+            <input type="text" name="" placeholder="Enter Email">
+             <p>Password</p>
+            <input type="password" name="" placeholder="Enter password">
+            <input type="submit" name="" value="Signin">
+            <a href="#">forgotpassword</a>
+        
+        </form>
+
+    </div>
+    
+    </body>
+</html>
